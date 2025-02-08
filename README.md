@@ -89,7 +89,7 @@ chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/main/chm1
 
 gnomAD benign SV annotations  
 https://gnomad.broadinstitute.org/downloads#v4-structural-variants  
-chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/master/gnomad.v4.1.sv.sites.lifted.col1to626.chm13.bed.gz
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/master/gnomad.v4.1.sv.sites.lifted.col1to626.chm13.bed.gz  
 `1) wget https://gnomad-public-us-east-1.s3.amazonaws.com/release/4.1/genome_sv/gnomad.v4.1.sv.sites.bed.gz`  
 `2) gunzip gnomad.v4.1.sv.sites.bed.gz;./liftOver -bedPlus=3 -tab gnomad.v4.1.sv.sites.bed grch38-chm13v2.chain gnomad.v4.1.sv.sites.lifted.col1to64.noheader.chm13.bed  gnomad.v4.1.sv.sites.failed.bed`  
 `3) awk 'BEGIN{FS="\t";OFS="\t"}{ if(FNR==NR){a[$4]=$1"\t"$2"\t"$3}else{ if($1~/^#/){print $0}else if(a[$4]~/chr/){ split(a[$4],b,"\t");$1=b[1];$2=b[2];$3=b[3];print $0} } }' gnomad.v4.1.sv.sites.lifted.col1to64.noheader.chm13.bed gnomad.v4.1.sv.sites.bed | bgzip >gnomad.v4.1.sv.sites.lifted.col1to626.chm13.bed.gz`  
