@@ -1,0 +1,4 @@
+chm13.chromFa.tar.gz filter=lfs diff=lfs merge=lfs -text
+chm13_hs1_variants_2020-02-25.txt filter=lfs diff=lfs merge=lfs -text
+clinvar_20241230.reformat.lifted.chm13.vcf.gz filter=lfs diff=lfs merge=lfs -text
+gnomad.v4.1.sv.sites.lifted.col1to626.chm13.bed.gz filter=lfs diff=lfs merge=lfs -text
