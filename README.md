@@ -7,6 +7,7 @@ The most important (files must be downloaded in T2T-CHM13):
 RefSeq gene annotations:  
 hg38: http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz  
 chm13: https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/annovar/hs1_curGenev5.20.txt.gz  
+or  
 chm13: https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/annovar/hs1_refGene.txt.gz  
 
 ENSEMBL gene annotations:  
@@ -15,7 +16,7 @@ chm13: https://ftp.ensembl.org/pub/rapid-release/species/Homo_sapiens/GCA_009914
 
 GC content annotations  
 hg38: http://hgdownload.cse.ucsc.edu/goldenPath/hg38/bigZips/hg38.chromFa.tar.gz  
-chm13:  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/master/chm13.chromFa.tar.gz  
 I couldn't find the corresponding file, but I generated it with the following code.  
 `1) wget https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0_maskedY_rCRS.fa.gz;`  
 `2) mkdir chroms; gunzip -dc chm13v2.0_maskedY_rCRS.fa.gz | awk '{if($0~/^>/){chr=$1;gsub(/>| */,"",chr)};{print $0 >"chroms/"chr".fa"}}';`  
@@ -37,22 +38,29 @@ chm13: https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies
 Others (liftover from GRCh38 to T2T-CHM13):  
 
 ClinVar pathogenic SV annotations  
-https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar_20240215.vcf.gz  
+hg38: https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar_20240215.vcf.gz  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/master/clinvar_20241230.reformat.lifted.chm13.vcf.gz  
 Known pathogenic SNV/indel annotations  
-https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar_20240215.vcf.gz;  
+hg38: https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar_20240215.vcf.gz;  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/master/clinvar_20241230.reformat.lifted.chm13.vcf.gz  
 ClinVar benign SV annotations  
-https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar_20240215.vcf.gz  
+hg38: https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar_20240215.vcf.gz  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/master/clinvar_20241230.reformat.lifted.chm13.vcf.gz  
 `1) wget https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar_20241223.vcf.gz;`  
 `2) gunzip -dc clinvar_20241230.vcf.gz | awk 'BEGIN{FS="\t";OFS="\t"}{if($1~/^#/){print $0}else if($1=="MT"){$1="chrM";print $0}else{print "chr"$0}}' | bgzip >clinvar_20241230.reformat.vcf.gz;`  
 `3) java -jar gatk-package-4.1.8.1-local.jar LiftoverVcf --RECOVER_SWAPPED_REF_ALT true -CHAIN grch38-chm13v2.chain -R chm13v2.0_maskedY_rCRS.fa -I clinvar_20241230.reformat.vcf.gz -O clinvar_20241230.reformat.lifted.nochrM.chm13.vcf.gz -REJECT clinvar_20241230.reformat.rejected.vcf.gz;`  
 `4) (gunzip -dc clinvar_20241230.reformat.lifted.nochrM.chm13.vcf.gz;gunzip -dc clinvar_20241230.reformat.rejected.vcf.gz | grep "^chrM" ) | bgzip >clinvar_20241230.reformat.lifted.chm13.vcf.gz;`
 
 Dosage sensitive genes/regions annotation (ClinGen)  
-ftp://ftp.clinicalgenome.org/ClinGen_gene_curation_list_GRCh38.tsv  
-ftp://ftp.clinicalgenome.org/ClinGen_region_curation_list_GRCh38.tsv  
+hg38: ftp://ftp.clinicalgenome.org/ClinGen_gene_curation_list_GRCh38.tsv  
+hg38: ftp://ftp.clinicalgenome.org/ClinGen_region_curation_list_GRCh38.tsv  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/main/ClinGen_gene_curation_list_chm13.lifted.tsv  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/main/ClinGen_region_curation_list_chm13.lifted.tsv  
 Not dosage sensitive genes/regions annotation (ClinGen)  
-https://ftp.clinicalgenome.org/ClinGen_gene_curation_list_GRCh38.tsv  
-https://ftp.clinicalgenome.org/ClinGen_region_curation_list_GRCh38.tsv  
+hg38: https://ftp.clinicalgenome.org/ClinGen_gene_curation_list_GRCh38.tsv  
+hg38: https://ftp.clinicalgenome.org/ClinGen_region_curation_list_GRCh38.tsv  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/main/ClinGen_gene_curation_list_chm13.lifted.tsv  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/main/ClinGen_region_curation_list_chm13.lifted.tsv  
 `1) wget https://ftp.ensembl.org/pub/rapid-release/species/Homo_sapiens/GCA_009914755.4/ensembl/geneset/2022_07/Homo_sapiens-GCA_009914755.4-2022_07-genes.gtf.gz;`  
 `2) wget https://ftp.clinicalgenome.org/ClinGen_gene_curation_list_GRCh38.tsv;`  
 `3) wget https://ftp.clinicalgenome.org/ClinGen_region_curation_list_GRCh38.tsv;`  
@@ -63,6 +71,9 @@ https://ftp.clinicalgenome.org/ClinGen_region_curation_list_GRCh38.tsv
 `8) (head -n 6 ClinGen_region_curation_list_GRCh38.tsv | sed 's/GRCh38 (hg38): GCF_000001405.36/chm13 (hs1): GCA_009914755.4/g' ;cat ClinGen_region_curation_list_GRCh38.reformat.lifted.chm13.bed | awk 'BEGIN{FS="\t";OFS="\t"}{$7=$1":"$2"-"$3;print $0}' | cut -f 4-26 ) >ClinGen_region_curation_list_chm13.lifted.tsv;`
 
 dbVarNR pathogenic SV annotations  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/main/chm13.nr_deletions.pathogenic.lifted.tsv  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/main/chm13.nr_duplications.pathogenic.lifted.tsv  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/main/chm13.nr_insertions.pathogenic.lifted.tsv  
 `1) wget https://ftp.ncbi.nlm.nih.gov/pub/dbVar/sandbox/sv_datasets/nonredundant/deletions/GRCh38.nr_deletions.pathogenic.tsv.gz;`  
 `2) wget https://ftp.ncbi.nlm.nih.gov/pub/dbVar/sandbox/sv_datasets/nonredundant/duplications/GRCh38.nr_duplications.pathogenic.tsv.gz;`  
 `3) wget https://ftp.ncbi.nlm.nih.gov/pub/dbVar/sandbox/sv_datasets/nonredundant/insertions/GRCh38.nr_insertions.pathogenic.tsv.gz;`  
@@ -78,12 +89,14 @@ dbVarNR pathogenic SV annotations
 
 gnomAD benign SV annotations  
 https://gnomad.broadinstitute.org/downloads#v4-structural-variants  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/master/gnomad.v4.1.sv.sites.lifted.col1to626.chm13.bed.gz
 `1) wget https://gnomad-public-us-east-1.s3.amazonaws.com/release/4.1/genome_sv/gnomad.v4.1.sv.sites.bed.gz`  
 `2) gunzip gnomad.v4.1.sv.sites.bed.gz;./liftOver -bedPlus=3 -tab gnomad.v4.1.sv.sites.bed grch38-chm13v2.chain gnomad.v4.1.sv.sites.lifted.col1to64.noheader.chm13.bed  gnomad.v4.1.sv.sites.failed.bed`  
 `3) awk 'BEGIN{FS="\t";OFS="\t"}{ if(FNR==NR){a[$4]=$1"\t"$2"\t"$3}else{ if($1~/^#/){print $0}else if(a[$4]~/chr/){ split(a[$4],b,"\t");$1=b[1];$2=b[2];$3=b[3];print $0} } }' gnomad.v4.1.sv.sites.lifted.col1to64.noheader.chm13.bed gnomad.v4.1.sv.sites.bed | bgzip >gnomad.v4.1.sv.sites.lifted.col1to626.chm13.bed.gz`  
 
 DGV benign SV annotations  
 http://dgv.tcag.ca/dgv/docs/GRCh38_hg38_variants_2020-02-25.txt  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/master/chm13_hs1_variants_2020-02-25.txt  
 `1) wget http://dgv.tcag.ca/dgv/docs/GRCh38_hg38_variants_2020-02-25.txt`  
 `2) cat GRCh38_hg38_variants_2020-02-25.txt | awk 'BEGIN{FS="\t";OFS="\t"}{ if($6~/insertion/ && $3==$4){$4=$4+1};if( $1!="variantaccession" && $2!="N" && $2!="" ){print "chr"$2,$3,$4,$0} }' >GRCh38_hg38_variants_2020-02-25.txt.reformat.bed`  
 `3) ./liftOver -bedPlus=3 -tab GRCh38_hg38_variants_2020-02-25.txt.reformat.bed grch38-chm13v2.chain GRCh38_hg38_variants_2020-02-25.txt.reformat.lifted.chm13.bed GRCh38_hg38_variants_2020-02-25.txt.reformat.failed.bed`  
@@ -91,12 +104,14 @@ http://dgv.tcag.ca/dgv/docs/GRCh38_hg38_variants_2020-02-25.txt
 
 DDD benign SV annotations  
 https://www.deciphergenomics.org/files/downloads/population_cnv_grch38.txt.gz  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/main/population_cnv_chm13.txt.gz  
 `1) wget https://www.deciphergenomics.org/files/downloads/population_cnv_grch38.txt.gz`  
-`2) cat population_cnv_grch38.txt | awk 'BEGIN{FS="\t";OFS="\t"}{ if($1!~/^#/){print "chr"$2"\t"$3"\t"$4"\t"$0} }' >population_cnv_grch38.reformat.bed`  
+`2) gunzip population_cnv_grch38.txt.gz; cat population_cnv_grch38.txt | awk 'BEGIN{FS="\t";OFS="\t"}{ if($1!~/^#/){print "chr"$2"\t"$3"\t"$4"\t"$0} }' >population_cnv_grch38.reformat.bed`  
 `3) (head -n 1 population_cnv_grch38.txt;cat population_cnv_grch38.reformat.lifted.chm13.bed | awk 'BEGIN{FS="\t";OFS="\t"}{$5=$1;$6=$2;$7=$3;print $0}' | cut -f 4-19 ) >population_cnv_chm13.txt`  
 
 1000 genomes benign SV annotations  
 http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/integrated_sv_map/supporting/GRCh38_positions/ALL.wgs.mergedSV.v8.20130502.svs.genotypes.GRCh38.vcf.gz  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/main/ALL.wgs.mergedSV.v8.20130502.svs.genotypes.chm13.vcf.gz
 `1) wget http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/integrated_sv_map/supporting/GRCh38_positions/ALL.wgs.mergedSV.v8.20130502.svs.genotypes.GRCh38.vcf.gz`  
 `2) gunzip -dc ALL.wgs.mergedSV.v8.20130502.svs.genotypes.GRCh38.vcf.gz >ALL.wgs.mergedSV.v8.20130502.svs.genotypes.GRCh38.vcf`  
 `3) cat ALL.wgs.mergedSV.v8.20130502.svs.genotypes.GRCh38.vcf | grep -v ^# | awk 'BEGIN{FS="\t";OFS="\t"}{ end=$2+1;if($8~/;END=/){end=$8;gsub(/.*;END=/,"",end);gsub(/;.*/,"",end)};print "chr"$1"\t"$2"\t"end"\t"$3 }' >ALL.wgs.mergedSV.v8.20130502.svs.genotypes.GRCh38.bed`  
@@ -104,6 +119,9 @@ http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/integrated_sv_map/supporting/GR
 `5) (cat ALL.wgs.mergedSV.v8.20130502.svs.genotypes.chm13.vcf.header;awk 'BEGIN{FS="\t";OFS="\t"}{ if(FNR==NR){a[$4]=$0}else if(a[$3]~/^chr/){split(a[$3],b,"\t");$1=b[1];$2=b[2];gsub(/;END=[0-9]*;/,";END="b[3]";",$8);print $0} }' ALL.wgs.mergedSV.v8.20130502.svs.genotypes.GRCh38.lifted.chm13.bed ALL.wgs.mergedSV.v8.20130502.svs.genotypes.GRCh38.vcf ) | bgzip >ALL.wgs.mergedSV.v8.20130502.svs.genotypes.chm13.vcf.gz`  
 
 dbVar benign SV annotations  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/main/chm13.nr_deletions.common.lifted.bed  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/main/chm13.nr_duplications.common.lifted.bed  
+chm13: https://github.com/lijianbiao13579/CHM13-files-for-AnnotSV/blob/main/chm13.nr_insertions.common.lifted.bed  
 `1) wget https://ftp.ncbi.nlm.nih.gov/pub/dbVar/sandbox/sv_datasets/nonredundant/deletions/GRCh38.nr_deletions.common.bed.gz;`  
 `2) wget https://ftp.ncbi.nlm.nih.gov/pub/dbVar/sandbox/sv_datasets/nonredundant/duplications/GRCh38.nr_duplications.common.bed.gz;`  
 `3) wget https://ftp.ncbi.nlm.nih.gov/pub/dbVar/sandbox/sv_datasets/nonredundant/insertions/GRCh38.nr_insertions.common.bed.gz;`  
