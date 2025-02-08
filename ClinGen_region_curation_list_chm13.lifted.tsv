@@ -1,0 +1,400 @@
+#ClinGen Region Curation Results
+#26 Dec,2024
+#Genomic Locations are reported on chm13 (hs1): GCA_009914755.4
+#https://www.ncbi.nlm.nih.gov/projects/dbvar/clingen
+#to create link: https://www.ncbi.nlm.nih.gov/projects/dbvar/clingen/clingen_region.cgi?id=key
+#ISCA ID	ISCA Region Name	cytoBand	Genomic Location	Haploinsufficiency Score	Haploinsufficiency Description	Haploinsufficiency PMID1	Haploinsufficiency PMID2	Haploinsufficiency PMID3	Haploinsufficiency PMID4	Haploinsufficiency PMID5	Haploinsufficiency PMID6	Triplosensitivity Score	Triplosensitivity Description	Triplosensitivity PMID1	Triplosensitivity PMID2	Triplosensitivity PMID3	Triplosensitivity PMID4	Triplosensitivity PMID5	Triplosensitivity PMID6	Date Last Evaluated	Haploinsufficiency Disease ID	Triplosensitivity Disease ID
+ISCA-46754	2p11.2 recurrent region (includes EIF2AK3 and RPIA)	2p11.2	chr2:88007217-88767092	0	No evidence available	31600545	31204702	25655429				0	No evidence available							2024-09-12		
+ISCA-46753	15q13.3q14 recurrent region (BP5-BP6) (includes GREM1)	15q13.3-q14	chr15:30429782-32185325	1	Little evidence for dosage pathogenicity	18561338	17163532	18458017				0	No evidence available	20610440						2024-08-02		
+ISCA-46745	MEG3/DLK1:Intergenic-Differentially Methylated Region (MEG3/DLK1:IG-DMR)	14q32.2	chr14:95043978-95046609	1	Little evidence for dosage pathogenicity	20585555	20585555	35544282				0	No evidence available							2024-09-13	MONDO:0016779	
+ISCA-46744	MEG3:Transcription Start Site-Differentially Methylated Region  (MEG3:TSS-DMR)	14q32.2	chr14:95059075-95062529	1	Little evidence for dosage pathogenicity	20585555	24801763		31301299			0	No evidence available							2024-09-13	MONDO:0016779	
+ISCA-46743	Xq25 region (includes STAG2)	Xq25	chrX:122210870-122413086	3	Sufficient evidence for dosage pathogenicity							3	Sufficient evidence for dosage pathogenicity	23637084	24733578	26443594	25677961	31609727		2022-11-30		MONDO:0100038
+ISCA-46742	7p22.1 region (includes ACTB)	7p22.1	chr7:5614768-5877522	3	Sufficient evidence for dosage pathogenicity	27633570	29220674	32562408				1	Little evidence for dosage pathogenicity	26297194	21998864	22495914	25893121	25124455	27866048	2022-02-08	MONDO:0000508	MONDO:0100038
+ISCA-46741	9p24.3 Region (includes DMRT1)	9p24.3	chr9:884555-919592	2	Some evidence for dosage pathogenicity	20685758	22573722	23555275	32741963			Not yet evaluated	Not yet evaluated							2023-11-10	MONDO:0002145	
+ISCA-46739	Yq11.223 population region (DGV_Gold_Standard_June_2021_gssvL138428)	Yq11.223	chrY:24861774-25155527	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46738	Yq11.223 population region (DGV_Gold_Standard_June_2021_gssvL138419)	Yq11.223	chrY:23102916-23206331	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46737	Xq27.3 population region (DGV_Gold_Standard_June_2021_gssvL137799)	Xq27.3	chrX:141823254-142017514	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46736	Xq21.1 population region (DGV_Gold_Standard_June_2021_gssvL136501)	Xq21.1	chrX:75351048-75354442	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46735	Xp11.23 population region (DGV_Gold_Standard_June_2021_gssvL136075)	Xp11.23	chrX:47431071-47502859	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46734	Xq28 population region (DGV_Gold_Standard_June_2021_gssvG41365)	Xq28	chrX:152418025-152468818	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-03		
+ISCA-46732	22q11.23 population region (DGV_Gold_Standard_June_2021_gssvG24415)	22q11.23	chr22:25768327-25850417	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-03		
+ISCA-46727	22q11.22 population region (DGV_Gold_Standard_June_2021_gssvL77120)	22q11.22	chr22:23304178-23319721	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46726	22q11.23 population region (DGV_Gold_Standard_June_2021_gssvL77244)	22q11.23	chr22:24379517-24400021	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46723	21q11.2 population region (DGV_Gold_Standard_June_2021_gssvL74506)	21q11.2	chr21:11929482-12173989	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46722	21q22.3 population region (DGV_Gold_Standard_June_2021_gssvL75982)	21q22.3	chr21:41904681-41909676	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46721	21q22.3 population region (DGV_Gold_Standard_June_2021_gssvL76000)	21q22.3	chr21:41905996-41907410	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46720	20p11.22 population region (DGV_Gold_Standard_June_2021_gssvL71898)	20p11.22	chr20:21562531-21572722	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46719	20q11.21 population region (DGV_Gold_Standard_June_2021_gssvL72187)	20q11.21	chr20:30494642-30521651	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46718	19p12 population region (DGV_Gold_Standard_June_2021_gssvL57428)	19p12	chr19:22042663-23100583	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46717	19q13.42 population region (DGV_Gold_Standard_June_2021_gssvG19479)	19q13.42	chr19:58868617-58877551	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46716	19p12 population region (DGV_Gold_Standard_June_2021_gssvL57316)	19p12	chr19:20549515-20680134	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46715	19p13.12 population region (DGV_Gold_Standard_June_2021_gssvL57062)	19p13.12	chr19:15742184-15801717	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46714	19q13.32 population region (DGV_Gold_Standard_June_2021_gssvL58890)	19q13.32	chr19:48946492-48952625	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46713	19q13.42 population region (DGV_Gold_Standard_June_2021_gssvL59370)	19q13.42	chr19:56515691-56552966	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46711	18p11.21 population region (DGV_Gold_Standard_June_2021_gssvG17388)	18p11.21	chr18:14595486-14726905	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46710	18q11.2 population region (DGV_Gold_Standard_June_2021_gssvL52661)	18q11.2	chr18:26362435-26366371	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46709	18p11.22 population region (DGV_Gold_Standard_June_2021_gssvL52196)	18p11.22	chr18:9947560-9956611	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46708	18p11.31 population region (DGV_Gold_Standard_June_2021_gssvL51911)	18p11.31	chr18:3728422-3731269	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46707	17q21.2 population region (DGV_Gold_Standard_June_2021_gssvG16538)	17q21.2	chr17:42231000-42239013	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46706	17q12 population region (DGV_Gold_Standard_June_2021_gssvG16427)	17q12	chr17:37123452-37144721	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46705	17p11.2 population region (DGV_Gold_Standard_June_2021_gssvG16095)	17p11.2	chr17:18403330-18420192	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46704	17p11.2 population region (DGV_Gold_Standard_June_2021_gssvG16067)	17p11.2	chr17:18405255-18467388	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46702	17p11.2 population region (DGV_Gold_Standard_June_2021_gssvG16012)	17p11.2	chr17:16659845-16707214	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46701	17p11.2 population region (DGV_Gold_Standard_June_2021_gssvL48488)	17p11.2	chr17:18403306-18420239	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46700	17p11.2 population region (DGV_Gold_Standard_June_2021_gssvL48476)	17p11.2	chr17:18462105-18508630	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46698	17q12 population region (DGV_Gold_Standard_June_2021_gssvL49126)	17q12	chr17:37130287-37172097	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46697	17q21.2 population region (DGV_Gold_Standard_June_2021_gssvL49379)	17q21.2	chr17:42092869-42105943	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46694	17q21.2 population region (DGV_Gold_Standard_June_2021_gssvL49383)	17q21.2	chr17:42093844-42102057	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46691	16p12.2 population region (DGV_Gold_Standard_June_2021_gssvG14372)	16p12.2	chr16:21435490-21517867	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46690	16p13.3 population region (DGV_Gold_Standard_June_2021_gssvL41949)	16p13.3	chr16:1256696-1262039	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46689	16p12.1 population region (DGV_Gold_Standard_June_2021_gssvL43366)	16p12.1	chr16:25334414-25405575	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46688	15q11.2 population region (DGV_Gold_Standard_June_2021_gssvG12359)	15q11.2	chr15:19709198-19728423	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46687	15q13.2 population region (DGV_Gold_Standard_June_2021_gssvG12633)	15q13.2	chr15:27989172-28297115	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46684	14q32.33 population region (DGV_Gold_Standard_June_2021_gssvG12133)	14q32.33	chr14:101011668-101031227	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46683	14q32.33 population region (DGV_Gold_Standard_June_2021_gssvG12117)	14q32.33	chr14:100690954-100715421	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46682	14q32.33 population region (DGV_Gold_Standard_June_2021_gssvG12097)	14q32.33	chr14:99924219-99951824	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46680	14q11.2 population region (DGV_Gold_Standard_June_2021_gssvG10827)	14q11.2	chr14:14066831-14154601	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46679	14q11.2 population region (DGV_Gold_Standard_June_2021_gssvG10817)	14q11.2	chr14:13921564-14158112	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46678	14q11.2 population region (DGV_Gold_Standard_June_2021_gssvL33520)	14q11.2	chr14:13922034-14156536	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46672	13q12.11 population region (DGV_Gold_Standard_June_2021_gssvG9718)	13q12.11	chr13:20153886-20160112	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46670	13q21.1 population region (DGV_Gold_Standard_June_2021_gssvL30434)	13q21.1	chr13:56411226-56429654	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46669	12p13.31 population region (DGV_Gold_Standard_June_2021_gssvG7850)	12p13.31	chr12:8222994-8253266	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46666	12q23.3 population region (DGV_Gold_Standard_June_2021_gssvL26928)	12q23.3	chr12:104936852-104942007	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46665	12p11.1 population region (DGV_Gold_Standard_June_2021_gssvL24290)	12p11.1	chr12:34080592-34086242	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46664	12p11.23 population region (DGV_Gold_Standard_June_2021_gssvL23860)	12p11.23	chr12:27366681-27373469	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46661	12p13.2 population region (DGV_Gold_Standard_June_2021_gssvL23223)	12p13.2	chr12:10912406-10940220	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46658	11p15.1 population region (DGV_Gold_Standard_June_2021_gssvG6192)	11p15.1	chr11:19016656-19040113	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-05		
+ISCA-46657	11p15.4 population region (DGV_Gold_Standard_June_2021_gssvG5957)	11p15.4	chr11:4299784-4322291	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-05		
+ISCA-46654	11p15.4 population region (DGV_Gold_Standard_June_2021_gssvL16737)	11p15.4	chr11:4299268-4321954	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46651	11p15.1 population region (DGV_Gold_Standard_June_2021_gssvL17400)	11p15.1	chr11:19018310-19040426	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46650	11p15.4 population region (DGV_Gold_Standard_June_2021_gssvL16961)	11p15.4	chr11:7846569-7871748	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46649	11p15.4 population region (DGV_Gold_Standard_June_2021_gssvL16881)	11p15.4	chr11:5910678-5920169	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46648	11q22.2 population region (DGV_Gold_Standard_June_2021_gssvL21098)	11q22.2	chr11:102884145-102885901	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46647	11q13.4 population region (DGV_Gold_Standard_June_2021_gssvL19865)	11q13.4	chr11:72066486-72104827	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46646	11q11 population region (DGV_Gold_Standard_June_2021_gssvL19045)	11q11	chr11:55605056-55614787	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46645	11q11 population region (DGV_Gold_Standard_June_2021_gssvL19042)	11q11	chr11:55616512-55628581	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46644	10q22.1 population region (DGV_Gold_Standard_June_2021_gssvL13249)	10q22.1	chr10:70391208-70399393	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46643	10q22.1 population region (DGV_Gold_Standard_June_2021_gssvL13247)	10q22.1	chr10:70389117-70399604	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46642	10q11.22 population region (DGV_Gold_Standard_June_2021_gssvL12112)	10q11.22	chr10:48394023-48478200	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46641	10q11.23 population region (DGV_Gold_Standard_June_2021_gssvL12109)	10q11.23	chr10:50951596-51089160	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46640	10q11.22 population region (DGV_Gold_Standard_June_2021_gssvL12105)	10q11.22	chr10:47963981-48173724	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46639	10q11.22 population region (DGV_Gold_Standard_June_2021_gssvG4512)	10q11.22	chr10:47041417-47107481	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-05		
+ISCA-46638	10p12.1 population region (DGV_Gold_Standard_June_2021_gssvL11273)	10p12.1	chr10:27379439-27383363	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46635	9p11.2 population region (DGV_Gold_Standard_June_2021_gssvG38779)	9p11.2	chr9:44159435-44716224	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-05		
+ISCA-46633	9p12 population region (DGV_Gold_Standard_June_2021_gssvL130619)	9p12	chr9:78718623-78889134	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46632	9q31.1 population region (DGV_Gold_Standard_June_2021_gssvL132495)	9q31.1	chr9:116775219-116781125	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46631	8p23.1 population region (DGV_Gold_Standard_June_2021_gssvG36644)	8p23.1	chr8:7084041-7098880	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-05		
+ISCA-46630	8p23.1 population region (DGV_Gold_Standard_June_2021_gssvG36608)	8p23.1	chr8:6725879-6775305	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-05		
+ISCA-46625	7q22.1 population region (DGV_Gold_Standard_June_2021_gssvL117874)	7q22.1	chr7:103645970-103699431	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46624	7q34 population region (DGV_Gold_Standard_June_2021_gssvL119381)	7q34	chr7:144109144-144122790	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46623	7q34 population region (DGV_Gold_Standard_June_2021_gssvL119380)	7q34	chr7:144108044-144130103	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46620	7q11.23 population region (DGV_Gold_Standard_June_2021_gssvL116711)	7q11.23	chr7:76165917-76269952	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46619	7q11.21 population region (DGV_Gold_Standard_June_2021_gssvL116036)	7q11.21	chr7:64703448-64719723	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46618	7q11.21 population region (DGV_Gold_Standard_June_2021_gssvL115987)	7q11.21	chr7:64425663-64461996	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46617	7p11.2 population region (DGV_Gold_Standard_June_2021_gssvL115697)	7p11.2	chr7:57232116-57258124	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46616	7p14.1 population region (DGV_Gold_Standard_June_2021_gssvL115094)	7p14.1	chr7:38503844-38515021	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46615	7p22.1 population region (DGV_Gold_Standard_June_2021_gssvL113541)	7p22.1	chr7:6980341-7002810	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46614	6q13 population region (DGV_Gold_Standard_June_2021_gssvG32691)	6q13	chr6:75177473-75185592	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-05		
+ISCA-46613	6q13 population region (DGV_Gold_Standard_June_2021_gssvG32688)	6q13	chr6:75176414-75187076	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-05		
+ISCA-46605	5q13.2 population region (DGV_Gold_Standard_June_2021_gssvG30124)	5q13.2	chr5:70839516-70867098	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-05		
+ISCA-46604	5p15.33 population region (DGV_Gold_Standard_June_2021_gssvG29169)	5p15.33	chr5:720381-731302	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-05		
+ISCA-46602	5q22.1 population region (DGV_Gold_Standard_June_2021_gssvL101506)	5q22.1	chr5:112080541-112085650	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46601	5q35.3 population region (DGV_Gold_Standard_June_2021_gssvL104429)	5q35.3	chr5:181724024-181729647	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-05		
+ISCA-46600	5q35.3 population region (DGV_Gold_Standard_June_2021_gssvL104164)	5q35.3	chr5:179474621-179479460	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46599	5q31.3 population region (DGV_Gold_Standard_June_2021_gssvL102648)	5q31.3	chr5:141242552-141249862	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46597	4p16.1 population region (DGV_Gold_Standard_June_2021_gssvG27165)	4p16.1	chr4:9436783-9476046	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-06		
+ISCA-46596	4p16.1 population region (DGV_Gold_Standard_June_2021_gssvL88361)	4p16.1	chr4:9481523-9510706	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46595	4p11 population region (DGV_Gold_Standard_June_2021_gssvL90109)	4p11	chr4:49133990-49206702	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46593	4q13.3 population region (DGV_Gold_Standard_June_2021_gssvL91223)	4q13.3	chr4:77760555-77801123	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46591	3p12.3 population region (DGV_Gold_Standard_June_2021_gssvL82434)	3p12.3	chr3:75570565-75586314	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46590	3p12.3 population region (DGV_Gold_Standard_June_2021_gssvL82397)	3p12.3	chr3:75415827-75648679	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46588	3q25.31 population region (DGV_Gold_Standard_June_2021_gssvL85294)	3q25.31	chr3:158534250-158554742	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46587	3q11.2 population region (DGV_Gold_Standard_June_2021_gssvL83307)	3q11.2	chr3:100872381-100904223	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46586	3q11.2 population region (DGV_Gold_Standard_June_2021_gssvL83303)	3q11.2	chr3:100863184-100908315	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46585	2q37.3 population region (DGV_Gold_Standard_June_2021_gssvL70815)	2q37.3	chr2:242438759-242580503	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46583	2p11.2 population region (DGV_Gold_Standard_June_2021_gssvL64514)	2p11.2	chr2:90677006-90680289	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46582	2p11.2 population region (DGV_Gold_Standard_June_2021_gssvL64458)	2p11.2	chr2:90561152-90577731	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46581	2p11.2 population region (DGV_Gold_Standard_June_2021_gssvL64445)	2p11.2	chr2:90766087-90792645	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46580	2p11.2 population region (DGV_Gold_Standard_June_2021_gssvL64421)	2p11.2	chr2:89168765-89222461	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46579	2p11.2 population region (DGV_Gold_Standard_June_2021_gssvL64418)	2p11.2	chr2:90561266-90619567	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46578	2p11.2 population region (DGV_Gold_Standard_June_2021_gssvL64414)	2p11.2	chr2:90522549-90568933	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46577	1q44 population region (DGV_Gold_Standard_June_2021_gssvL8958)	1q44	chr1:248031010-248033833	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46576	1q44 population region (DGV_Gold_Standard_June_2021_gssvL8766)	1q44	chr1:248032235-248073123	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46574	1q24.2 population region (DGV_Gold_Standard_June_2021_gssvL5980)	1q24.2	chr1:167406786-167407961	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46573	1q23.3 population region (DGV_Gold_Standard_June_2021_gssvL5778)	1q23.3	chr1:160944873-160972734	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46572	1q21.3 population region (DGV_Gold_Standard_June_2021_gssvL5433)	1q21.3	chr1:151719003-151739426	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46571	1q21.2 population region (DGV_Gold_Standard_June_2021_gssvL5166)	1q21.2	chr1:142785336-142795633	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46570	1q21.2 population region (DGV_Gold_Standard_June_2021_gssvL5133)	1q21.2	chr1:142729531-142781539	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46569	1q21.2 population region (DGV_Gold_Standard_June_2021_gssvL5122)	1q21.2	chr1:146365930-146423330	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46568	1p31.3 population region (DGV_Gold_Standard_June_2021_gssvL3013)	1p31.3	chr1:64250088-64264199	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46567	1p31.3 population region (DGV_Gold_Standard_June_2021_gssvL2940)	1p31.3	chr1:62067627-62070145	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46566	1p36.12 population region (DGV_Gold_Standard_June_2021_gssvL1420)	1p36.12	chr1:21810446-21833044	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46565	1p36.13 population region (DGV_Gold_Standard_June_2021_gssvL1195)	1p36.13	chr1:16398549-16401894	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46562	1p36.21 population region (DGV_Gold_Standard_June_2021_gssvL905)	1p36.21	chr1:12383553-12408436	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46561	1p36.21 population region (DGV_Gold_Standard_June_2021_gssvL891)	1p36.21	chr1:12370794-12426166	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46560	1p36.21 population region (DGV_Gold_Standard_June_2021_gssvL889)	1p36.21	chr1:12807663-12889247	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46559	1q21.3 population region (DGV_Gold_Standard_June_2021_gssvG2465)	1q21.3	chr1:151925563-151937610	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-06		
+ISCA-46557	1p36.21 population region (DGV_Gold_Standard_June_2021_gssvG371)	1p36.21	chr1:12381765-12406391	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-06		
+ISCA-46556	1p36.33 population region (DGV_Gold_Standard_June_2021_gssvG23)	1p36.33	chr1:204196-249636	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-06		
+ISCA-46554	1p36.33 population region ((DGV_Gold_Standard_June_2021_gssvG23))	1p36.33	chr1:204196-249636	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-06		
+ISCA-46553	3q24 Region (includes ZIC1)	3q24	chr3:139424907-151374349	3	Sufficient evidence for dosage pathogenicity	15338008	21204220	21471554	28503614	22067867		0	No evidence available							2021-07-19	MONDO:0000508	
+ISCA-46551	Yq11.223 population region (gnomAD-SV_v2.1_DUP_Y_55049)	Yq11.223	chrY:22370376-22426666	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-03		
+ISCA-46550	Xq28 population region (gnomAD-SV_v2.1_DEL_X_190964)	Xq28	chrX:154236642-154247834	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46547	Xq26.3 population region (gnomAD-SV_v2.1_DEL_X_189893)	Xq26.3	chrX:134140070-134156275	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46543	Xp11.23 population region (gnomAD-SV_v2.1_DUP_X_53157)	Xp11.23	chrX:48890264-48908158	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-03		
+ISCA-46542	Xp11.23 population region (gnomAD-SV_v2.1_DUP_X_53155)	Xp11.23	chrX:48880286-48894662	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-03		
+ISCA-46541	Xp11.23 population region (gnomAD-SV_v2.1_DUP_X_53151)	Xp11.23	chrX:48844376-48869952	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-03		
+ISCA-46540	Xp11.23 population region (gnomAD-SV_v2.1_DUP_X_53149)	Xp11.23	chrX:48743159-48754216	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-03		
+ISCA-46539	Xp11.23 population region (gnomAD-SV_v2.1_DEL_X_186156)	Xp11.23	chrX:48731681-48741413	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46538	22q13.1 population region (gnomAD-SV_v2.1_DEL_22_182715)	22q13.1	chr22:39432695-39462831	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46536	22q11.23 population region (gnomAD-SV_v2.1_DEL_22_181680)	22q11.23	chr22:24389515-24399377	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46535	22q11.23 population region (gnomAD-SV_v2.1_DEL_22_181679)	22q11.23	chr22:24381216-24388218	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46533	22q11.21 population region (gnomAD-SV_v2.1_DEL_22_181532)	22q11.21	chr22:21617700-21624900	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46532	22q11.21 population region (gnomAD-SV_v2.1_DEL_22_181459)	22q11.21	chr22:21733751-21741849	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46529	22q11.21 population region (gnomAD-SV_v2.1_DEL_22_181316)	22q11.21	chr22:19124497-19132925	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46528	21q22.3 population region (gnomAD-SV_v2.1_DEL_21_181010)	21q22.3	chr21:44540434-44542816	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46527	21q11.2 population region (gnomAD-SV_v2.1_DEL_21_178683)	21q11.2	chr21:11984811-12006711	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46526	21q11.2 population region (gnomAD-SV_v2.1_DEL_21_178682)	21q11.2	chr21:11967186-11973187	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46525	21q11.2 population region (gnomAD-SV_v2.1_DEL_21_178681)	21q11.2	chr21:11952386-11958087	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46524	19q13.42 population region (gnomAD-SV_v2.1_DEL_19_173817)	19q13.42	chr19:57950861-57955960	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46523	19q13.42 population region (gnomAD-SV_v2.1_DEL_19_173816)	19q13.42	chr19:57943374-57952862	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46522	19q13.42 population region (gnomAD-SV_v2.1_DEL_19_173812)	19q13.42	chr19:57897705-57906447	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46521	19q13.42 population region (gnomAD-SV_v2.1_DEL_19_173811)	19q13.42	chr19:57884320-57906850	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46520	19q13.42 population region (gnomAD-SV_v2.1_DEL_19_173809)	19q13.42	chr19:57875820-57880821	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46519	19q13.42 population region (gnomAD-SV_v2.1_DEL_19_173807)	19q13.42	chr19:57868818-57875821	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-03		
+ISCA-46518	19q13.42 population region (gnomAD-SV_v2.1_DEL_19_173806)	19q13.42	chr19:57860815-57870821	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46517	19q13.42 population region (gnomAD-SV_v2.1_DEL_19_173805)	19q13.42	chr19:57855939-57864419	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46515	19q13.42 population region (gnomAD-SV_v2.1_DEL_19_173802)	19q13.42	chr19:57832939-57838269	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46513	19q13.42 population region (gnomAD-SV_v2.1_DEL_19_173800)	19q13.42	chr19:57827036-57832047	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46512	19q13.42 population region (gnomAD-SV_v2.1_DEL_19_173749)	19q13.42	chr19:57386150-57393581	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46511	19q13.41 population region (gnomAD-SV_v2.1_DEL_19_173549)	19q13.41	chr19:55897306-55904802	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46510	19q13.41 population region (gnomAD-SV_v2.1_DEL_19_173445)	19q13.41	chr19:54719729-54734428	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46509	19q13.41 population region (gnomAD-SV_v2.1_DEL_19_173443)	19q13.41	chr19:54713426-54724830	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46508	19q13.31 population region (gnomAD-SV_v2.1_DEL_19_172626)	19q13.31	chr19:46017448-46032467	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46507	19q13.31 population region (gnomAD-SV_v2.1_DEL_19_172625)	19q13.31	chr19:46017415-46081125	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46506	19q13.12 population region (gnomAD-SV_v2.1_DEL_19_172006)	19q13.12	chr19:37904831-37917113	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46505	19p13.2 population region (gnomAD-SV_v2.1_DUP_19_46817)	19p13.2	chr19:7009461-7050494	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46504	17q21.31 population region (gnomAD-SV_v2.1_DEL_17_160670)	17q21.31	chr17:47422203-47437202	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46503	17q21.31 population region (gnomAD-SV_v2.1_DEL_17_160664)	17q21.31	chr17:47188527-47194527	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46502	17q21.31 population region (gnomAD-SV_v2.1_DEL_17_160663)	17q21.31	chr17:47185829-47203080	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46501	17q21.31 population region (gnomAD-SV_v2.1_DEL_17_160662)	17q21.31	chr17:47183730-47190329	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46500	17q21.31 population region (gnomAD-SV_v2.1_DEL_17_160659)	17q21.31	chr17:47166344-47171639	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46499	17q21.31 population region (gnomAD-SV_v2.1_DEL_17_160658)	17q21.31	chr17:47153645-47164645	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46498	17q21.2 population region (gnomAD-SV_v2.1_DUP_17_44064)	17q21.2	chr17:42231248-42238570	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46496	17q21.2 population region (gnomAD-SV_v2.1_DEL_17_160287)	17q21.2	chr17:42093551-42104499	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46495	17p11.2 population region (gnomAD-SV_v2.1_DEL_17_159095)	17p11.2	chr17:19049390-19088393	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46494	17p11.2 population region (gnomAD-SV_v2.1_DEL_17_159047)	17p11.2	chr17:18373515-18508666	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46493	16q22.1 population region (gnomAD-SV_v2.1_DUP_16_42449)	16q22.1	chr16:75870175-76020055	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46491	16p11.2 population region (gnomAD-SV_v2.1_DUP_16_42022)	16p11.2	chr16:32396133-32472128	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-04		
+ISCA-46490	16p11.2 population region (gnomAD-SV_v2.1_DEL_16_153573)	16p11.2	chr16:29034245-29041257	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46489	16p11.2 population region (gnomAD-SV_v2.1_DEL_16_153568)	16p11.2	chr16:28984461-29040272	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-04		
+ISCA-46488	16p12.3 population region (gnomAD-SV_v2.1_DEL_16_152900)	16p12.3	chr16:18328385-18334387	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46487	16p13.11 population region (gnomAD-SV_v2.1_DEL_16_152730)	16p13.11	chr16:16241296-16276048	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-23		
+ISCA-46482	15q14 population region (gnomAD-SV_v2.1_DEL_15_146739)	15q14	chr15:32239847-32386373	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-09		
+ISCA-46481	15q14 population region (gnomAD-SV_v2.1_DEL_15_146738)	15q14	chr15:32223653-32370043	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-09		
+ISCA-46480	15q13.3 population region (gnomAD-SV_v2.1_DEL_15_146627)	15q13.3	chr15:30390467-30402274	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-17		
+ISCA-46479	15q13.3 population region (gnomAD-SV_v2.1_DEL_15_146625)	15q13.3	chr15:30369283-30402274	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-09		
+ISCA-46478	15q13.3 population region (gnomAD-SV_v2.1_DEL_15_146614)	15q13.3	chr15:30279338-30284339	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-09		
+ISCA-46477	15q13.3 population region (gnomAD-SV_v2.1_DEL_15_146612)	15q13.3	chr15:30248337-30259447	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-09		
+ISCA-46476	15q13.3 population region (gnomAD-SV_v2.1_DEL_15_146609)	15q13.3	chr15:30197323-30202324	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-09		
+ISCA-46475	15q13.3 population region (gnomAD-SV_v2.1_DUP_15_39790)	15q13.3	chr15:30195098-30238587	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-09		
+ISCA-46474	15q13.2 population region (gnomAD-SV_v2.1_DEL_15_146467)	15q13.2	chr15:28348994-28384092	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-17		
+ISCA-46473	15q13.2 population region (gnomAD-SV_v2.1_DEL_15_146464)	15q13.2	chr15:28326245-28354148	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-17		
+ISCA-46472	15q13.2 population region (gnomAD-SV_v2.1_DEL_15_146452)	15q13.2	chr15:28194068-28226275	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-17		
+ISCA-46471	15q13.2 population region (gnomAD-SV_v2.1_DEL_15_146453)	15q13.2	chr15:27932524-28384092	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-09		
+ISCA-46470	15q13.2 population region (gnomAD-SV_v2.1_DEL_15_146428)	15q13.2	chr15:27881465-27938027	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-09		
+ISCA-46469	15q11.2 population region (gnomAD-SV_v2.1_DEL_15_145837)	15q11.2	chr15:19817112-19831344	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-09		
+ISCA-46468	15q11.2 population region (gnomAD-SV_v2.1_DEL_15_145826)	15q11.2	chr15:18435753-18452104	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-09		
+ISCA-46466	12q12 population region (gnomAD-SV_v2.1_DEL_12_127735)	12q12	chr12:40433038-40434696	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-09		
+ISCA-46465	12p11.23 population region (gnomAD-SV_v2.1_DEL_12_126677)	12p11.23	chr12:27366882-27373901	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-09		
+ISCA-46461	12p13.31 population region (gnomAD-SV_v2.1_DUP_12_33971)	12p13.31	chr12:8222921-8252373	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-09		
+ISCA-46460	11q14.3 population region (gnomAD-SV_v2.1_DEL_11_121860)	11q14.3	chr11:89949918-89970310	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-09		
+ISCA-46459	11q14.3 population region (gnomAD-SV_v2.1_DUP_11_33042)	11q14.3	chr11:89706586-89840570	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-09		
+ISCA-46458	11q11 population region (gnomAD-SV_v2.1_DEL_11_119564)	11q11	chr11:55535056-55614818	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-09		
+ISCA-46457	11q11 population region (gnomAD-SV_v2.1_DEL_11_119505)	11q11	chr11:55201700-55208638	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-09		
+ISCA-46456	11p15.4 population region (gnomAD-SV_v2.1_DEL_11_116241)	11p15.4	chr11:7847994-7870241	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46455	11p15.4 population region (gnomAD-SV_v2.1_DEL_11_116124)	11p15.4	chr11:5910682-5920163	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46453	10q22.3 population region (gnomAD-SV_v2.1_DEL_10_112166)	10q22.3	chr10:80714081-80720392	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46452	10q11.23 population region (gnomAD-SV_v2.1_DEL_10_110230)	10q11.23	chr10:51061635-51069724	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46451	10q11.23 population region (gnomAD-SV_v2.1_DEL_10_110229)	10q11.23	chr10:51055632-51062836	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46450	10q11.23 population region (gnomAD-SV_v2.1_DEL_10_110225)	10q11.23	chr10:50951889-50984541	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46449	10q11.23 population region (gnomAD-SV_v2.1_DEL_10_110224)	10q11.23	chr10:50948187-50954491	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46448	10q11.23 population region (gnomAD-SV_v2.1_DEL_10_110223)	10q11.23	chr10:50941737-50947288	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46447	10q11.23 population region (gnomAD-SV_v2.1_DEL_10_110222)	10q11.23	chr10:50935586-50940688	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46446	10q11.23 population region (gnomAD-SV_v2.1_DEL_10_110221)	10q11.23	chr10:50929585-50934986	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46445	10q11.23 population region (gnomAD-SV_v2.1_DEL_10_110193)	10q11.23	chr10:74540125-74551642	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46444	10q11.22 population region (gnomAD-SV_v2.1_DEL_10_110072)	10q11.22	chr10:47822005-47827878	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46443	10q11.22 population region (gnomAD-SV_v2.1_DEL_10_110044)	10q11.22	chr10:48378662-48384663	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46442	10q11.22 population region (gnomAD-SV_v2.1_DEL_10_110043)	10q11.22	chr10:48390662-48398463	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46441	10q11.22 population region (gnomAD-SV_v2.1_DEL_10_110040)	10q11.22	chr10:47687042-47737043	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46440	10q11.22 population region (gnomAD-SV_v2.1_DEL_10_110031)	10q11.22	chr10:51054018-51072939	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46439	10q11.22 population region (gnomAD-SV_v2.1_DEL_10_110022)	10q11.22	chr10:50966549-50971950	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46438	10q11.22 population region (gnomAD-SV_v2.1_DEL_10_110021)	10q11.22	chr10:50961597-50968748	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46437	10q11.22 population region (gnomAD-SV_v2.1_DEL_10_110019)	10q11.22	chr10:50930247-50953052	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46436	10q11.22 population region (gnomAD-SV_v2.1_DEL_10_110016)	10q11.22	chr10:47263681-47269382	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46435	10q11.22 population region (gnomAD-SV_v2.1_DEL_10_110001)	10q11.22	chr10:48878287-48883384	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46434	10q11.22 population region (gnomAD-SV_v2.1_DEL_10_110000)	10q11.22	chr10:48858215-48868407	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46433	10q11.22 population region (gnomAD-SV_v2.1_DEL_10_109999)	10q11.22	chr10:47259111-47264212	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46432	10q11.22 population region (gnomAD-SV_v2.1_DEL_10_109998)	10q11.22	chr10:47263811-47268812	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46431	10q11.22 population region (gnomAD-SV_v2.1_DEL_10_109958)	10q11.22	chr10:46724211-46760474	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46430	10q11.22 population region (gnomAD-SV_v2.1_DEL_10_109954)	10q11.22	chr10:46696266-46711419	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46429	10p12.33 population region (gnomAD-SV_v2.1_DEL_10_108289)	10p12.33	chr10:17857266-17865343	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46428	10p12.33 population region (gnomAD-SV_v2.1_DEL_10_108288)	10p12.33	chr10:17848163-17860443	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46427	10p12.33 population region (gnomAD-SV_v2.1_DEL_10_108283)	10p12.33	chr10:17857320-17871097	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46426	10p12.33 population region (gnomAD-SV_v2.1_DEL_10_108282)	10p12.33	chr10:17845327-17857321	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46425	9q34.3 population region (gnomAD-SV_v2.1_DEL_9_106704)	9q34.3	chr9:148273491-148281143	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46423	9q21.11 population region (gnomAD-SV_v2.1_DUP_9_27462)	9q21.11	chr9:41897024-41920793	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-17		
+ISCA-46421	9q21.11 population region (gnomAD-SV_v2.1_DEL_9_102461)	9q21.11	chr9:79678910-79695091	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46420	9q21.11 population region (gnomAD-SV_v2.1_DEL_9_102460)	9q21.11	chr9:79658759-79665195	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-10		
+ISCA-46417	9q12 population region (gnomAD-SV_v2.1_DEL_9_102303)	9q12	chr9:39381771-39393861	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46416	9p11.1 population region (gnomAD-SV_v2.1_DEL_9_102297)	9p11.1	chr9:43451982-43462545	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46415	9p11.2 population region (gnomAD-SV_v2.1_DEL_9_102296)	9p11.2	chr9:43443895-43448902	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46414	9p11.2 population region (gnomAD-SV_v2.1_DEL_9_102294)	9p11.2	chr9:43426034-43445022	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46413	9p11.2 population region (gnomAD-SV_v2.1_DEL_9_102236)	9p11.2	chr9:79484165-79506174	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46412	9p11.2 population region (gnomAD-SV_v2.1_DEL_9_102187)	9p11.2	chr9:79507599-79525500	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46411	9p11.2 population region (gnomAD-SV_v2.1_DEL_9_102099)	9p11.2	chr9:44123970-44129070	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-17		
+ISCA-46410	9p11.2 population region (gnomAD-SV_v2.1_DEL_9_102097)	9p11.2	chr9:44131873-44150880	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46409	9p11.2 population region (gnomAD-SV_v2.1_DEL_9_102096)	9p11.2	chr9:44264992-44345942	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46408	9p11.2 population region (gnomAD-SV_v2.1_DEL_9_102085)	9p11.2	chr9:44210398-44227902	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-17		
+ISCA-46407	9p11.2 population region (gnomAD-SV_v2.1_DEL_9_102049)	9p11.2	chr9:79061059-79066302	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46403	9p11.2 population region (gnomAD-SV_v2.1_DEL_9_102043)	9p11.2	chr9:78946153-78995156	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46402	9p11.2 population region (gnomAD-SV_v2.1_DEL_9_102042)	9p11.2	chr9:78941296-78949698	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46401	9p11.2 population region (gnomAD-SV_v2.1_DEL_9_102036)	9p11.2	chr9:78879274-78884465	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-17		
+ISCA-46400	9p11.2 population region (gnomAD-SV_v2.1_DEL_9_102035)	9p11.2	chr9:78869456-78884473	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46399	9p11.2 population region (gnomAD-SV_v2.1_DEL_9_102032)	9p11.2	chr9:78854103-78873443	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-17		
+ISCA-46395	9p12 population region (gnomAD-SV_v2.1_DEL_9_101967)	9p12	chr9:40233816-40244676	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46393	9p12 population region (gnomAD-SV_v2.1_DEL_9_101915)	9p12	chr9:43738547-43744549	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46392	9p13.1 population region (gnomAD-SV_v2.1_DEL_9_101840)	9p13.1	chr9:79061964-79068877	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46391	9p24.3 population region (gnomAD-SV_v2.1_DUP_9_26178)	9p24.3	chr9:106135-120121	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-11		
+ISCA-46390	8q24.3 population region (gnomAD-SV_v2.1_DEL_8_98285)	8q24.3	chr8:145424813-145447613	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-17		
+ISCA-46389	8q24.3 population region (gnomAD-SV_v2.1_DEL_8_98283)	8q24.3	chr8:145426716-145446299	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46388	8p23.1 population region (gnomAD-SV_v2.1_DEL_8_89725)	8p23.1	chr8:12713272-12733117	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46387	8p23.1 population region (gnomAD-SV_v2.1_DUP_8_23819)	8p23.1	chr8:12673826-12719473	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-11		
+ISCA-46386	8p23.1 population region (gnomAD-SV_v2.1_DEL_8_89706)	8p23.1	chr8:7624034-7630034	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46385	8p23.1 population region (gnomAD-SV_v2.1_DEL_8_89703)	8p23.1	chr8:7665689-7687695	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46384	8p23.1 population region (gnomAD-SV_v2.1_DEL_8_89357)	8p23.1	chr8:12094694-12100545	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46383	8p23.1 population region (gnomAD-SV_v2.1_DEL_8_89356)	8p23.1	chr8:12087442-12112544	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46382	8p23.1 population region (gnomAD-SV_v2.1_DEL_8_89355)	8p23.1	chr8:12033476-12042553	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46381	8p23.1 population region (gnomAD-SV_v2.1_DUP_8_23708)	8p23.1	chr8:12025475-12031576	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-17		
+ISCA-46380	8p23.1 population region (gnomAD-SV_v2.1_DEL_8_89353)	8p23.1	chr8:12024975-12052931	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46376	7q34 population region (gnomAD-SV_v2.1_DEL_7_87016)	7q34	chr7:143380722-143409758	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46375	7q34 population region (gnomAD-SV_v2.1_DEL_7_87015)	7q34	chr7:143370303-143396241	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-11		
+ISCA-46374	7q22.1 population region (gnomAD-SV_v2.1_DEL_7_84412)	7q22.1	chr7:103972357-104005515	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46373	7q22.1 population region (gnomAD-SV_v2.1_DEL_7_84190)	7q22.1	chr7:101103269-101105441	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46372	7q11.23 population region (gnomAD-SV_v2.1_DEL_7_82638)	7q11.23	chr7:76257156-76266164	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46371	7q11.23 population region (gnomAD-SV_v2.1_DEL_7_82637)	7q11.23	chr7:76241156-76247362	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46370	7q11.23 population region (gnomAD-SV_v2.1_DEL_7_82636)	7q11.23	chr7:76209157-76216159	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46369	7q11.23 population region (gnomAD-SV_v2.1_DEL_7_82621)	7q11.23	chr7:76011479-76017980	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46368	7q11.21 population region (gnomAD-SV_v2.1_DEL_7_81890)	7q11.21	chr7:66868181-66901239	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46367	7p22.1 population region (gnomAD-SV_v2.1_DEL_7_77893)	7p22.1	chr7:6898494-6906690	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46366	7p22.1 population region (gnomAD-SV_v2.1_DEL_7_77769)	7p22.1	chr7:6055121-6060128	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46365	7p22.1 population region (gnomAD-SV_v2.1_DEL_7_77765)	7p22.1	chr7:6019120-6031122	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46364	5q35.3 population region (gnomAD-SV_v2.1_DEL_5_65880)	5q35.3	chr5:181924346-181993195	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46363	5q35.3 population region (gnomAD-SV_v2.1_DEL_5_65831)	5q35.3	chr5:181504502-181560010	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46362	5q31.3 population region (gnomAD-SV_v2.1_DEL_5_63328)	5q31.3	chr5:141367878-141384671	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46361	5q13.2 population region (gnomAD-SV_v2.1_DEL_5_58900)	5q13.2	chr5:71487894-71496588	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46360	5q13.2 population region (gnomAD-SV_v2.1_DUP_5_15442)	5q13.2	chr5:71485418-71564876	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-12		
+ISCA-46359	5q13.2 population region (gnomAD-SV_v2.1_DEL_5_58897)	5q13.2	chr5:71473926-71525975	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46358	5q13.2 population region (gnomAD-SV_v2.1_DUP_5_15350)	5q13.2	chr5:70814064-70877796	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-12		
+ISCA-46357	4q13.3 population region (gnomAD-SV_v2.1_DEL_4_46753)	4q13.3	chr4:77792182-77801183	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46356	4q13.3 population region (gnomAD-SV_v2.1_DEL_4_46744)	4q13.3	chr4:77793941-77800942	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46350	3p12.3 population region (gnomAD-SV_v2.1_DEL_3_33722)	3p12.3	chr3:75771913-75800121	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46349	2q21.2 population region (gnomAD-SV_v2.1_DUP_2_6167)	2q21.2	chr2:132531607-132894310	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-06		
+ISCA-46348	2q21.2 population region (gnomAD-SV_v2.1_DEL_2_22275)	2q21.2	chr2:132197025-132207128	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46347	2q21.1 population region (gnomAD-SV_v2.1_DEL_2_22163)	2q21.1	chr2:131089139-131106569	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46346	2q21.1 population region (gnomAD-SV_v2.1_DEL_2_22156)	2q21.1	chr2:130925227-130930926	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46345	2q21.1 population region (gnomAD-SV_v2.1_DEL_2_22155)	2q21.1	chr2:130913333-130918327	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46344	2q21.1 population region (gnomAD-SV_v2.1_DEL_2_22135)	2q21.1	chr2:130631261-130633710	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46343	2q21.1 population region (gnomAD-SV_v2.1_DEL_2_22133)	2q21.1	chr2:130630322-130635323	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46342	2p11.2 population region (gnomAD-SV_v2.1_DEL_2_19888)	2p11.2	chr2:87020291-87031692	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46341	1q44 population region (gnomAD-SV_v2.1_DEL_1_13898)	1q44	chr1:248081724-248094757	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46340	1q44 population region (gnomAD-SV_v2.1_DEL_1_13890)	1q44	chr1:248013359-248019355	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46339	1q44 population region (gnomAD-SV_v2.1_DEL_1_13889)	1q44	chr1:248006363-248073509	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46338	1q44 population region (gnomAD-SV_v2.1_DEL_1_13888)	1q44	chr1:248004363-248018355	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46337	1q44 population region (gnomAD-SV_v2.1_DEL_1_13885)	1q44	chr1:247987821-248032758	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46336	1q44 population region (gnomAD-SV_v2.1_DUP_1_3816)	1q44	chr1:247901400-247928411	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-06		
+ISCA-46334	1q25.2 population region (gnomAD-SV_v2.1_DEL_1_9549)	1q25.2	chr1:178841484-178844166	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46332	1q21.3 population region (gnomAD-SV_v2.1_DEL_1_8087)	1q21.3	chr1:151924586-151935164	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46331	1q21.3 population region (gnomAD-SV_v2.1_DEL_1_8075)	1q21.3	chr1:151719618-151751818	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46330	1q21.2 population region (gnomAD-SV_v2.1_DEL_1_7863)	1q21.2	chr1:142974092-142983543	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46329	1q21.2 population region (gnomAD-SV_v2.1_DEL_1_7859)	1q21.2	chr1:142946479-143010671	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46328	1q21.2 population region (gnomAD-SV_v2.1_DEL_1_7798)	1q21.2	chr1:120909551-120920052	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46327	1q21.2 population region (gnomAD-SV_v2.1_DEL_1_7795)	1q21.2	chr1:146296567-146347592	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46326	1q21.2 population region (gnomAD-SV_v2.1_DEL_1_7781)	1q21.2	chr1:146649191-146719684	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46325	1q21.2 population region (gnomAD-SV_v2.1_DEL_1_7778)	1q21.2	chr1:146824654-146846064	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46324	1q21.1 population region (gnomAD-SV_v2.1_DEL_1_7699)	1q21.1	chr1:147727506-147790493	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46322	1p13.3 population region (gnomAD-SV_v2.1_DEL_1_6959)	1p13.3	chr1:108274747-108347088	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46320	1p36.11 population region (gnomAD-SV_v2.1_DEL_1_1945)	1p36.11	chr1:25164802-25171153	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46319	1p36.11 population region (gnomAD-SV_v2.1_DEL_1_1944)	1p36.11	chr1:25154183-25159304	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-17		
+ISCA-46318	1p36.11 population region (gnomAD-SV_v2.1_DEL_1_1943)	1p36.11	chr1:25149283-25159804	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46317	1p36.11 population region (gnomAD-SV_v2.1_DEL_1_1941)	1p36.11	chr1:25140671-25145771	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-17		
+ISCA-46316	1p36.11 population region (gnomAD-SV_v2.1_DEL_1_1939)	1p36.11	chr1:25123773-25130774	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-17		
+ISCA-46315	1p36.11 population region (gnomAD-SV_v2.1_DEL_1_1938)	1p36.11	chr1:25103479-25119974	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46314	1p36.11 population region (gnomAD-SV_v2.1_DEL_1_1937)	1p36.11	chr1:25102579-25160804	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-17		
+ISCA-46313	1p36.11 population region (gnomAD-SV_v2.1_DEL_1_1834)	1p36.11	chr1:23794932-23801929	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-12		
+ISCA-46311	1p36.21 population region (gnomAD-SV_v2.1_DEL_1_1094)	1p36.21	chr1:12473295-12482992	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46310	1p36.21 population region (gnomAD-SV_v2.1_DEL_1_1089)	1p36.21	chr1:12434134-12450133	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46309	1p36.21 population region (gnomAD-SV_v2.1_DEL_1_1085)	1p36.21	chr1:12380580-12414378	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46308	1p36.21 population region (gnomAD-SV_v2.1_DUP_1_507)	1p36.21	chr1:12379157-12424105	0	No evidence available							40	Dosage sensitivity unlikely							2021-08-06		
+ISCA-46307	1p36.33 population region (gnomAD-SV_v2.1_DEL_1_195)	1p36.33	chr1:1143981-1149964	40	Dosage sensitivity unlikely							0	No evidence available							2021-08-06		
+ISCA-46304	Xq28 region (includes MECP2)	Xq28	chrX:152282218-152383941	0	No evidence available							3	Sufficient evidence for dosage pathogenicity	32043567	29618507	22679399	29141583			2021-02-22		MONDO:0010283
+ISCA-46303	SOX9 upstream enhancer region	17q24.3	chr17:70774545-72669347	3	Sufficient evidence for dosage pathogenicity	19234473	26663529	24934569				1	Little evidence for dosage pathogenicity	32583964	19639023					2021-06-07	MONDO:0007134	MONDO:0009869
+ISCA-46302	Xp21.2 region (includes NR0B1)	Xp21.2	chrX:29769218-29929096	0	No evidence available							3	Sufficient evidence for dosage pathogenicity	22518125	17504899	20685758				2020-07-22		MONDO:0010226
+ISCA-46300	15q24 recurrent region (LCR C-LCR D) (includes SIN3A)	15q24	chr15:73209508-73551278	3	Sufficient evidence for dosage pathogenicity	27399968	22180641					0	No evidence available							2020-01-13	MONDO:0013256	
+ISCA-46299	Xp11.22 region (includes HUWE1)	Xp11.22	chrX:52620524-53056146	0	No evidence available							3	Sufficient evidence for dosage pathogenicity	22840365	20655035	26692240				2018-11-19		MONDO:0020119
+ISCA-46298	13q12.12 recurrent region (includes SACS, SGCG)	13q12.12	chr13:22171356-23514316	0	No evidence available	30767844						0	No evidence available							2024-04-18		
+ISCA-46295	15q13.3 recurrent region (D-CHRNA7 to BP5) (includes CHRNA7, OTUD7A)	15q13.3	chr15:29521614-29947358	3	Sufficient evidence for dosage pathogenicity	19898479	20236110	22775350				40	Dosage sensitivity unlikely	26968334	22420048					2018-05-10	MONDO:0100038	
+ISCA-46291	7q11.23 recurrent distal region (includes HIP1, YWHAG)	7q11.23	chr7:76816057-77722266	2	Some evidence for dosage pathogenicity	21109226	35481155	16971481				1	Little evidence for dosage pathogenicity	21109226	27867344					2023-04-20		
+ISCA-46288	2q21.1 recurrent region (includes ARHGEF4, GPR148)	2q21.1	chr2:131154090-131606090	1	Little evidence for dosage pathogenicity	22543972	24591035	25661985				0	No evidence available	22543972						2019-09-30		
+ISCA-46287	2p24.3 MYCN-DDX1 duplication region	2p24.3	chr2:15600154-16076789									2	Some evidence for dosage pathogenicity	27794475	24161495	23401364				2017-08-07		MONDO:0005072
+ISCA-46285	15q13 recurrent region (BP3-BP4) (includes APBA2)	15q13.1-q13.2	chr15:26694401-27868506	0	No evidence available	21248749	19372089	18278044				0	No evidence available							2020-03-09		
+ISCA-37516	22q11.2 recurrent region (central, B/C-D) (includes CRKL)	22q11.21	chr22:20782018-21520157	2	Some evidence for dosage pathogenicity	25123976	29090080	26278718	22893440	28121514		0	No evidence available	30614210	29090080	18445048	18414210	19490635	22796526	2024-05-01		
+ISCA-37514	15q25.2q25.3 recurrent region (distal, LCR C-LCR D)	15q25.2-q25.3	chr15:82348850-82921987	1	Little evidence for dosage pathogenicity	23239641						0	No evidence available							2020-06-26		
+ISCA-37501	17q23.1q23.2 recurrent region (includes TBX2, TBX4)	17q23.1-q23.2	chr17:60904373-63067341	3	Sufficient evidence for dosage pathogenicity	20206336	22052739					2	Some evidence for dosage pathogenicity	20598276	24592505					2018-11-19	MONDO:0013238	
+ISCA-37500	15q25.2 recurrent region (proximal LCR B-LCR C)	15q25.2	chr15:80398352-81911932	3	Sufficient evidence for dosage pathogenicity	24352913	23166063	17847001				0	No evidence available							2016-10-13	MONDO:0013672	
+ISCA-37497	10q11.2 recurrent region (LCR C-LCR D)	10q11.22-q11.23	chr10:49030599-50695186	1	Little evidence for dosage pathogenicity	21948486	20466309	17531565				1	Little evidence for dosage pathogenicity	21948486	24669257	28846756	34207052			2022-10-12		
+ISCA-37496	2q13 recurrent region (includes BCL2L11)	2q13	chr2:111057514-112773937	2	Some evidence for dosage pathogenicity	26227573	26236398	21255006				2	Some evidence for dosage pathogenicity	26227573	24807792	21255006				2018-06-22		
+ISCA-37495	2q11.2 recurrent region (includes ARID5A, TMEM127)	2q11.2	chr2:96579890-97512297	3	Sufficient evidence for dosage pathogenicity	26227573						1	Little evidence for dosage pathogenicity	26227573						2022-02-21		
+ISCA-37494	Xq28 recurrent region (int22h1/int22h2-flanked) (includes RAB39B)	Xq28	chrX:153126736-153572428	3	Sufficient evidence for dosage pathogenicity	25927380	21984752					3	Sufficient evidence for dosage pathogenicity	25927380	21984752	24357492				2018-08-30		MONDO:0010436
+ISCA-37493	1q43q44 terminal region (includes AKT3)	1q43-q44	chr1:242535446-244572450	3	Sufficient evidence for dosage pathogenicity	17603806	21800092	22678713				0	No evidence available	23794269						2016-10-12	MONDO:0012869	
+ISCA-37488	22q11.2 recurrent region (distal type II, E-F)	22q11.22-q11.23	chr22:23199802-23729782	1	Little evidence for dosage pathogenicity	23765049	26278718	31837127	21278390	17351135	21948486	1	Little evidence for dosage pathogenicity	22140377						2023-01-19		
+ISCA-37486	16p11.2 recurrent region (distal, BP2-BP3) (includes SH2B1)	16p11.2	chr16:29091890-29316312	3	Sufficient evidence for dosage pathogenicity	27240531	20808231	19966786	30767844	21465664	23325106	1	Little evidence for dosage pathogenicity	27240531	20808231	30803986				2024-02-13	MONDO:0013267	
+ISCA-37483	19q13.3 region (PSG gene cluster)	19q13	chr19:45557603-46057611	40	Dosage sensitivity unlikely							40	Dosage sensitivity unlikely							2014-03-13		
+ISCA-37481	3 copies: 16p centromere	16p11.1	chr16:38215417-39161206	40	Dosage sensitivity unlikely							40	Dosage sensitivity unlikely							2013-08-01		
+ISCA-37480	3 copies: 15q telomere	15q26.3	chr15:99379281-99750708	0	No evidence available							40	Dosage sensitivity unlikely							2013-11-26		
+ISCA-37478	15q11.2q13 recurrent (PWS/AS) region (Class 2,BP2-BP3)	15q11.2-q13.1	chr15:21199059-25877225	3	Sufficient evidence for dosage pathogenicity	7611294	22045295					3	Sufficient evidence for dosage pathogenicity	9106540	18374305	16840569				2013-11-26	MONDO:0008300	MONDO:0012081
+ISCA-37476	14q11.2 region (TCRA region)	14q11.2	chr14:15840547-16749906	40	Dosage sensitivity unlikely							40	Dosage sensitivity unlikely							2015-04-09		
+ISCA-37471	1 copy: 6p telomere | 3 copies: 6p telomere	6p25	chr6:114468-194737	40	Dosage sensitivity unlikely							40	Dosage sensitivity unlikely							2014-06-20		
+ISCA-37470	1 copy: 2q telomere|3 copies: 2q telomere	2q37.3	chr2:242497123-242667288	40	Dosage sensitivity unlikely							40	Dosage sensitivity unlikely							2014-04-24		
+ISCA-37468	Xp11.23 region (includes MAOA and MAOB)	Xp11.23	chrX:43061081-43288671	3	Sufficient evidence for dosage pathogenicity	22365943	20485326	23414621				0	No evidence available							2017-10-11		
+ISCA-37467	7q36.3 ZRS (SHH cis-regulatory) duplication region (within LMBR1 intron 5)	7q36.3	chr7:157978885-157979657	0	No evidence available							3	Sufficient evidence for dosage pathogenicity	18178630	18417549	19291772				2018-02-14		MONDO:0008270
+ISCA-37448	15q11.2 recurrent region (BP1-BP2) (includes NIPA1)	15q11.2	chr15:20454007-20712028	3	Sufficient evidence for dosage pathogenicity	31451536	24352232	30767844	31665216			40	Dosage sensitivity unlikely							2021-04-12		
+ISCA-37447	DLK1-MEG3 Intergenic Region	14q32.2	chr14:94959428-95068113	3	Sufficient evidence for dosage pathogenicity	20585555	24801763	27406249	33579810	18176563	28640239	0	No evidence available							2024-09-13	MONDO:0100499	
+ISCA-37443	3q29 recurrent region (includes DLG1)	3q29	chr3:198749494-200350355	3	Sufficient evidence for dosage pathogenicity	27656750	33564151	25714563				1	Little evidence for dosage pathogenicity	32154651	33039685	29501613	18471269			2024-02-18	MONDO:0012269	MONDO:0012761
+ISCA-37442	6q24 region (includes PLAGL1)	6q24	chr6:145114838-145288153	1	Little evidence for dosage pathogenicity	16971482						3	Sufficient evidence for dosage pathogenicity	10615957	8842729	10923638				2016-05-24		MONDO:0011073
+ISCA-37441	11p11.2 (Potocki-Shaffer syndrome) region (includes ALX4, EXT2)	11p11.2	chr11:44028626-46286899	3	Sufficient evidence for dosage pathogenicity	15852040	16319823	20140962				0	No evidence available							2013-12-12	MONDO:0011022	
+ISCA-37440	2p21 region (includes PREPL and SLC3A1)	2p21	chr2:44188482-44367804	30	Gene associated with autosomal recessive phenotype	11524703	16385448	18234729				0	No evidence available							2012-03-21	MONDO:0011669	
+ISCA-37439	Xq28 recurrent region (includes GDI1)	Xq28	chrX:152632743-152792065	0	No evidence available							3	Sufficient evidence for dosage pathogenicity	20004760	17546640	18047645				2016-05-26		MONDO:0010436
+ISCA-37438	14q11.2 region including CHD8 and SUPT16H	14q11.2	chr14:15556197-15591304	2	Some evidence for dosage pathogenicity	17545556						0	No evidence available							2012-05-09		
+ISCA-37436	17p12 recurrent (HNPP/CMT1A) region (includes PMP22)	17p12	chr17:14102393-15425871	3	Sufficient evidence for dosage pathogenicity	20301566						3	Sufficient evidence for dosage pathogenicity	20301384						2016-10-13	MONDO:0008087	MONDO:0007309
+ISCA-37433	22q11.2 recurrent (DGS/VCFS) region (proximal, A-B) (includes TBX1)	22q11.21	chr22:19300104-20681010	3	Sufficient evidence for dosage pathogenicity	20301696	27189754	26278718				3	Sufficient evidence for dosage pathogenicity	20301749	19254783	18414210				2018-08-31	MONDO:0008564	MONDO:0012020
+ISCA-37432	17q12 recurrent (RCAD syndrome) region (includes HNF1B)	17q12	chr17:37444973-38841585	3	Sufficient evidence for dosage pathogenicity	27929632						3	Sufficient evidence for dosage pathogenicity	26925472	30134084	27409573	26420380			2022-06-16	MONDO:0013797	MONDO:0013796
+ISCA-37431	17q11.2 recurrent region (includes NF1)	17q11.2	chr17:31725057-32882882	3	Sufficient evidence for dosage pathogenicity	20513137	20543202	22151963				2	Some evidence for dosage pathogenicity	22241097	18183042	25205021				2020-10-12	MONDO:0013357	MONDO:0030032
+ISCA-37430	17p13.3 (Miller-Dieker syndrome) region (includes YWHAE and PAFAH1B1)	17p13.3	chr17:1233247-2574760	3	Sufficient evidence for dosage pathogenicity	3391613, 1671808,  1879837,  7634541, 19584063, 12621583						3	Sufficient evidence for dosage pathogenicity	19136950	19520700	23813913				2016-11-09	MONDO:0009532	MONDO:0013182
+ISCA-37428	1q21.1 recurrent (TAR syndrome) region (proximal, BP2-BP3) (includes RBM8A)	1q21.1	chr1:144803787-145165377	1	Little evidence for dosage pathogenicity	22317977	25217958					1	Little evidence for dosage pathogenicity	22317977	25217958					2017-05-18	MONDO:0010121	
+ISCA-37425	5q35 recurrent (Sotos syndrome) region (includes NSD1)	5q35.2-q35.3	chr5:176845564-178163070	3	Sufficient evidence for dosage pathogenicity							3	Sufficient evidence for dosage pathogenicity	23599694	23913520	24819041				2014-04-10	MONDO:0019349	
+ISCA-37424	10q22.3q23.2 recurrent region (includes BMPR1A)	10q22.3-q23.2	chr10:80792471-87863320	3	Sufficient evidence for dosage pathogenicity	31561016	24550761	28588438	21248748	23057600		1	Little evidence for dosage pathogenicity	21248748	26383923	22043167				2023-05-15		
+ISCA-37423	8p23.1 recurrent region (includes GATA4)	8p23.1	chr8:7831477-11501090	3	Sufficient evidence for dosage pathogenicity	20969981	23239632	19606479				2	Some evidence for dosage pathogenicity	26097203	21933911	23165946				2022-06-10		
+ISCA-37421	1q21.1 recurrent region (distal, BP3-BP4) (includes GJA5)	1q21.1-q21.2	chr1:146890148-147702541	3	Sufficient evidence for dosage pathogenicity	37881147	33576134	26066539				2	Some evidence for dosage pathogenicity	37881147	26066539					2024-10-04	MONDO:0012914	MONDO:0012915
+ISCA-37420	17q21.3 recurrent region (includes KANSL1)	17q21.3	chr17:46489484-46949136	3	Sufficient evidence for dosage pathogenicity	20301783	18628315					1	Little evidence for dosage pathogenicity	19502243	24649381	26565673				2020-08-10	MONDO:0012496	
+ISCA-37417	Xp22.31 recurrent region (includes STS)	Xp22.31	chrX:6091130-7710557	3	Sufficient evidence for dosage pathogenicity							40	Dosage sensitivity unlikely							2021-07-01	MONDO:0010622	
+ISCA-37415	16p13.11 recurrent region (BP2-BP3) (includes MYH11)	16p13.11	chr16:15422655-16203918	2	Some evidence for dosage pathogenicity	23637818	20398883	18550696	30767844	32697297		2	Some evidence for dosage pathogenicity	30767844	24352232	30287593	36724812			2024-08-16		
+ISCA-37411	15q13.3 recurrent region (BP4-BP5) (includes CHRNA7)	15q13	chr15:28694672-29947358	3	Sufficient evidence for dosage pathogenicity	18278044	19289393	19136953				1	Little evidence for dosage pathogenicity	19372089	18805830	26997942				2018-04-27	MONDO:0012774	
+ISCA-37409	16p12.2 recurrent region (proximal) (includes EEF2K, CDR2)	16p12.2	chr16:21797732-22280079	2	Some evidence for dosage pathogenicity	20154674	24163246	23682798				0	No evidence available							2018-03-23		
+ISCA-37408	2p15p16.1 region (includes BCL11A)	2p15-p16.1	chr2:58917018-62267963	3	Sufficient evidence for dosage pathogenicity	16963482	18245392	22579565	36807877			1	Little evidence for dosage pathogenicity	22726847	26278498	29951117	29864511	37937284		2024-09-10	MONDO:0012916	
+ISCA-37406	16p13.3 region (includes CREBBP)	16p13.3	chr16:3752325-3907325	3	Sufficient evidence for dosage pathogenicity							1	Little evidence for dosage pathogenicity							2016-06-09	MONDO:0012519	
+ISCA-37401	11p13 (WAGR syndrome) region	11p13	chr11:31917774-32624923	3	Sufficient evidence for dosage pathogenicity							1	Little evidence for dosage pathogenicity	23701296						2016-05-24	MONDO:0008681	
+ISCA-37400	16p11.2 recurrent region (proximal, BP4-BP5) (includes TBX6)	16p11.2	chr16:29920721-30473113	3	Sufficient evidence for dosage pathogenicity	20301775	18184952	21841781				3	Sufficient evidence for dosage pathogenicity	18184952	21731881	21841781				2017-02-09	MONDO:0012756	MONDO:0013847
+ISCA-37397	22q11.2 recurrent region (distal type I, D-E/F)	22q11.21-q11.22	chr22:21976303-23729782	3	Sufficient evidence for dosage pathogenicity	23765049	30524331	26141236	18179902			1	Little evidence for dosage pathogenicity	22140377	19193630	18414210				2022-12-08	MONDO:0012740	
+ISCA-37393	22q11.21 recurrent (Cat eye syndrome) region (includes CECR2)	22q11.1-q11.21	chr22:17588722-18781004	0	No evidence available	16708226						3	Sufficient evidence for dosage pathogenicity	22890013	22495764	11693792				2014-02-27		MONDO:0007276
+ISCA-37392	7q11.23 recurrent (Williams-Beuren syndrome) region (includes ELN)	7q11.23	chr7:74530623-75930458	3	Sufficient evidence for dosage pathogenicity	20301427						3	Sufficient evidence for dosage pathogenicity	26610320						2015-08-06	MONDO:0008678	MONDO:0012342
